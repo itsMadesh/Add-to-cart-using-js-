@@ -44,7 +44,7 @@ app.get("/user/cart",async (req,res)=>{
     }
 });
 
-
+//get cart items
 app.post("/user/cart",async (req,res)=>{
     try{
         const user_id="639c951b447e99e542b255a5"
